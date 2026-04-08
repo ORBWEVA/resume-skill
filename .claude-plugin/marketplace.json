@@ -2,6 +2,6 @@
   "name": "resume-skill",
   "owner": {"name": "ORBWEVA"},
   "plugins": [
-    {"name":"resume","source":".","description":"Resume work from the previous session. Reconstructs context from git history, plan files, changelogs, and TODO markers.","version":"1.0.0","author":{"name":"ORBWEVA"},"repository":"https://github.com/ORBWEVA/resume-skill"}
+    {"name":"resume","source":{"source":"github","repo":"ORBWEVA/resume-skill"},"description":"Resume work from the previous session. Reconstructs context from git history, plan files, changelogs, and TODO markers. Use when starting a new session that continues prior work, or when user types /r","version":"1.0.0","author":{"name":"ORBWEVA"}}
   ]
 }
